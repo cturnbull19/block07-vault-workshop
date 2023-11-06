@@ -5,9 +5,9 @@ const message2 = 'Here is the secret combination:'
 
 /*Assign three variables. Each variable contains the corresponding result of calculation using a unique arithmetic operator
 Each must equal one of the three codes in the combination. */
-let x = 6+5;
-let y = 6*5;
-let z = 6-5;
+let x = 5+5;
+let y = 8*5;
+let z = 40-1;
 
 //if i just used x + y + z without the commas, it would've added the values together
 console.log(x, + y, + z,)
@@ -22,4 +22,6 @@ console.log(x, + y, + z,)
 alert(message1)
 alert(message2)
 
+//I originally tried the string concatenation and it didn't work the way i wanted
+//so then i fixed it by using the template literals way
 alert(`${x} ${y} ${z}`)
