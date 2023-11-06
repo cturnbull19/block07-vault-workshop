@@ -1,6 +1,6 @@
 //Create a string for the user saying: You have received this message because you have been chosen to open an important vault. Here is the secret combination:
-const message1 = 'You have receieved this message because you have been chosen to open an important vault.'
-const message2 = 'Here is the secrete combination:'
+const message1 = 'You have received this message because you have been chosen to open an important vault.'
+const message2 = 'Here is the secret combination:'
 
 
 /*Assign three variables. Each variable contains the corresponding result of calculation using a unique arithmetic operator
@@ -20,5 +20,6 @@ console.log(x, + y, + z,)
 
 //I want to first create a dialog box that will display the original message.
 alert(message1)
+alert(message2)
 
-alert(x, + y, + z,)
+alert(`${x} ${y} ${z}`)
